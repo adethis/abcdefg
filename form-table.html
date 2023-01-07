@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<body>
+  <form action="">
+    <table border="0" cellpadding="0">
+      <tr>
+        <td>Nama</td>
+        <td>:</td>
+        <td>
+          <input type="text" name="nama" />
+        </td>
+      </tr>
+      <tr>
+        <td>Password</td>
+        <td>:</td>
+        <td>
+          <input type="password" name="password" />
+        </td>
+      </tr>
+      <tr>
+        <td>Jenis Kelamin</td>
+        <td>:</td>
+        <td>
+          <label>
+            <input type="radio" name="jenis_kelamin" value="Laki-laki" checked /> Laki-laki
+          </label>
+          <label>
+            <input type="radio" name="jenis_kelamin" value="Perempuan" /> Perempuan
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td>Program Studi</td>
+        <td>:</td>
+        <td>
+          <select name="program_studi" id="">
+            <option value="pb_inggris">Pendidikan Bahasa Inggris</option>
+            <option value="p_mtk">Pendidikan Matematika</option>
+            <option value="pb_indonesia">Pendidikan Bahasa Indonesia</option>
+          </select>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td>Alamat</td>
+        <td>:</td>
+        <td>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"></td>
+        <td>
+          <input type="submit" name="kirim" value="KIRIM" />
+          <input type="submit" name="batal" value="BATAL" />
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
